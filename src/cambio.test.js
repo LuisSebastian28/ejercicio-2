@@ -10,4 +10,7 @@ describe("Cambio a monedas", () => {
   it("Si ponemos 3, deberia devolver 1,1", () => {
     expect(cambioAmonedas(3)).toEqual("2,1");
   });
+  it("Si ponemos 10, deberia devolver 5,5", () => {
+    expect(cambioAmonedas(10)).toEqual("5,5");
+  });
 });
