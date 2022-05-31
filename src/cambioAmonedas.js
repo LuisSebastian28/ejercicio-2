@@ -4,6 +4,10 @@ function cambioAmonedas(a) {
     {
         resp = "1,1"
     }
+    if(a==3)
+    {
+        resp = "2,1"
+    }
     return resp;
   }
   

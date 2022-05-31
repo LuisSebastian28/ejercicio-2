@@ -8,6 +8,6 @@ describe("Cambio a monedas", () => {
     expect(cambioAmonedas(2)).toEqual("1,1");
   });
   it("Si ponemos 3, deberia devolver 1,1", () => {
-    expect(cambioAmonedas(2)).toEqual("2,1");
+    expect(cambioAmonedas(3)).toEqual("2,1");
   });
 });
