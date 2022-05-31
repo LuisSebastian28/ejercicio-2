@@ -1,5 +1,5 @@
 function cambioAmonedas(a, b) {
-    return 0;
+    return 1;
   }
   
   export default cambioAmonedas;
